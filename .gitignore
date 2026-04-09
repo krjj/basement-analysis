@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.vercel/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PDFs (personal documents)
+*.pdf
+
+# Claude config
+.claude/

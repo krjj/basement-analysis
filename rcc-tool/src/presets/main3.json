@@ -1,0 +1,1212 @@
+{
+  "version": 1,
+  "savedAt": "2026-04-05T17:39:29.366Z",
+  "wallHeightMm": 4267,
+  "primaryUnit": "mm",
+  "secondaryUnit": "mm",
+  "showSecondaryUnit": false,
+  "loads": {
+    "soilDepthMm": 914,
+    "slabGamma": 20,
+    "liveLoad": 2,
+    "soilGamma": 18,
+    "soilSaturated": false,
+    "gammaW": 9.81,
+    "waterTableDepth": null,
+    "phi": 30,
+    "cohesion": 0,
+    "surcharge": 10,
+    "loadCase": "active",
+    "raftThicknessMm": 381,
+    "wallTopPropped": true,
+    "horizBarHookMm": 457
+  },
+  "capacityInputs": {
+    "fck": 30,
+    "fy": 550,
+    "beamTu": {},
+    "beamMuHogg": {},
+    "slabCase": {
+      "e36": 4,
+      "e38": 4,
+      "e39": 1,
+      "e41": 7,
+      "e72": 4,
+      "e73": 4,
+      "e74": 7,
+      "e75": 1,
+      "e76": 8,
+      "e79": 4,
+      "e77": 4
+    },
+    "colPu": {},
+    "colMux": {},
+    "colMuy": {}
+  },
+  "columns": [
+    {
+      "id": "e23",
+      "x": 8597,
+      "y": 12580,
+      "width": 230,
+      "depth": 458,
+      "mark": "C1",
+      "steel": {
+        "vertBars": {
+          "count": 8,
+          "dia": 16
+        },
+        "ties": {
+          "dia": 8,
+          "spacing": 100
+        },
+        "cover": 40
+      }
+    },
+    {
+      "id": "e25",
+      "x": 8597,
+      "y": 6920,
+      "width": 355,
+      "depth": 355,
+      "mark": "C3",
+      "steel": {
+        "vertBars": {
+          "count": 8,
+          "dia": 16
+        },
+        "ties": {
+          "dia": 8,
+          "spacing": 150
+        },
+        "cover": 40
+      }
+    }
+  ],
+  "walls": [
+    {
+      "id": "e1",
+      "start": {
+        "x": 5000,
+        "y": 2500
+      },
+      "end": {
+        "x": 13382,
+        "y": 2500
+      },
+      "thickness": 330,
+      "length": 8382,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e2",
+      "start": {
+        "x": 13382,
+        "y": 2500
+      },
+      "end": {
+        "x": 13382,
+        "y": 6920
+      },
+      "thickness": 330,
+      "length": 4420,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e3",
+      "start": {
+        "x": 13382,
+        "y": 6920
+      },
+      "end": {
+        "x": 13382,
+        "y": 6920
+      },
+      "thickness": 330,
+      "length": 0,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e4",
+      "start": {
+        "x": 13382,
+        "y": 6920
+      },
+      "end": {
+        "x": 17802,
+        "y": 6920
+      },
+      "thickness": 330,
+      "length": 4420,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e8",
+      "start": {
+        "x": 17802,
+        "y": 6920
+      },
+      "end": {
+        "x": 17802,
+        "y": 12406
+      },
+      "thickness": 330,
+      "length": 5486,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e9",
+      "start": {
+        "x": 17802,
+        "y": 12406
+      },
+      "end": {
+        "x": 13382,
+        "y": 12406
+      },
+      "thickness": 330,
+      "length": 4420,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e10",
+      "start": {
+        "x": 13352,
+        "y": 12406
+      },
+      "end": {
+        "x": 13352,
+        "y": 16125
+      },
+      "thickness": 330,
+      "length": 3719,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e14",
+      "start": {
+        "x": 13352,
+        "y": 16125
+      },
+      "end": {
+        "x": 8597,
+        "y": 16125
+      },
+      "thickness": 330,
+      "length": 4755,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e15",
+      "start": {
+        "x": 8597,
+        "y": 16125
+      },
+      "end": {
+        "x": 8597,
+        "y": 18563
+      },
+      "thickness": 330,
+      "length": 2438,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e16",
+      "start": {
+        "x": 8597,
+        "y": 18563
+      },
+      "end": {
+        "x": 6463,
+        "y": 18563
+      },
+      "thickness": 330,
+      "length": 2134,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e17",
+      "start": {
+        "x": 6463,
+        "y": 18563
+      },
+      "end": {
+        "x": 6500,
+        "y": 12500
+      },
+      "thickness": 330,
+      "length": 6063,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e18",
+      "start": {
+        "x": 6500,
+        "y": 12500
+      },
+      "end": {
+        "x": 5000,
+        "y": 12500
+      },
+      "thickness": 330,
+      "length": 1500,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    },
+    {
+      "id": "e19",
+      "start": {
+        "x": 5000,
+        "y": 12500
+      },
+      "end": {
+        "x": 5000,
+        "y": 2500
+      },
+      "thickness": 330,
+      "length": 10000,
+      "steel": {
+        "horizBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "vertBars": {
+          "dia": 10,
+          "spacing": 150,
+          "faces": 2
+        },
+        "cover": 25
+      }
+    }
+  ],
+  "beams": [
+    {
+      "id": "e58",
+      "start": {
+        "x": 8597,
+        "y": 6742.5
+      },
+      "end": {
+        "x": 8599.120573688399,
+        "y": 2615
+      },
+      "mark": "B1",
+      "label": "B1-1",
+      "width": 230,
+      "depth": 458,
+      "length": 4128,
+      "elevation": 0,
+      "steel": {
+        "bottomFull": {
+          "count": 5,
+          "dia": 25
+        },
+        "bottomCurtail": {
+          "count": 2,
+          "dia": 25
+        },
+        "topSteel": {
+          "count": 4,
+          "dia": 25
+        },
+        "extraTopSupport": {
+          "count": 0,
+          "dia": 16
+        },
+        "stirrups": {
+          "dia": 10,
+          "supportSpacing": 125,
+          "supportNos": 10,
+          "midSpacing": 125
+        },
+        "cover": 25,
+        "startSupport": {
+          "type": "wall",
+          "embedmentDepth": 254,
+          "lBend": true,
+          "lBendLength": 150,
+          "colWidth": 230,
+          "straightBar": false,
+          "lBendCount": 3
+        },
+        "endSupport": {
+          "type": "column",
+          "embedmentDepth": 230,
+          "lBend": true,
+          "lBendLength": 450,
+          "colWidth": 355,
+          "straightBar": true,
+          "barExtension": 1000
+        }
+      }
+    },
+    {
+      "id": "e61",
+      "start": {
+        "x": 8774.5,
+        "y": 6920
+      },
+      "end": {
+        "x": 13267,
+        "y": 6919.8244275669995
+      },
+      "mark": "B1",
+      "label": "B1-2",
+      "width": 230,
+      "depth": 458,
+      "length": 4493,
+      "elevation": 0,
+      "steel": {
+        "bottomFull": {
+          "count": 5,
+          "dia": 25
+        },
+        "bottomCurtail": {
+          "count": 2,
+          "dia": 25
+        },
+        "topSteel": {
+          "count": 4,
+          "dia": 25
+        },
+        "extraTopSupport": {
+          "count": 0,
+          "dia": 16
+        },
+        "stirrups": {
+          "dia": 10,
+          "supportSpacing": 125,
+          "supportNos": 10,
+          "midSpacing": 125
+        },
+        "cover": 25,
+        "startSupport": {
+          "type": "wall",
+          "embedmentDepth": 300,
+          "lBend": false,
+          "lBendLength": 450,
+          "colWidth": 230,
+          "straightBar": false
+        },
+        "endSupport": {
+          "type": "column",
+          "embedmentDepth": 230,
+          "lBend": true,
+          "lBendLength": 450,
+          "colWidth": 355,
+          "straightBar": true,
+          "barExtension": 1000
+        }
+      }
+    },
+    {
+      "id": "e62",
+      "start": {
+        "x": 8597,
+        "y": 7097.5
+      },
+      "end": {
+        "x": 8597,
+        "y": 12351
+      },
+      "mark": "B1",
+      "label": "B1-3",
+      "width": 230,
+      "depth": 458,
+      "length": 5254,
+      "elevation": 0,
+      "steel": {
+        "bottomFull": {
+          "count": 5,
+          "dia": 25
+        },
+        "bottomCurtail": {
+          "count": 2,
+          "dia": 25
+        },
+        "topSteel": {
+          "count": 4,
+          "dia": 25
+        },
+        "extraTopSupport": {
+          "count": 0,
+          "dia": 16
+        },
+        "stirrups": {
+          "dia": 10,
+          "supportSpacing": 125,
+          "supportNos": 10,
+          "midSpacing": 125
+        },
+        "cover": 25,
+        "startSupport": {
+          "type": "column",
+          "embedmentDepth": 230,
+          "lBend": true,
+          "lBendLength": 450,
+          "colWidth": 355,
+          "straightBar": true,
+          "barExtension": 1000
+        },
+        "endSupport": {
+          "type": "column",
+          "embedmentDepth": 230,
+          "lBend": true,
+          "lBendLength": 450,
+          "colWidth": 457,
+          "straightBar": true,
+          "barExtension": 457
+        }
+      }
+    },
+    {
+      "id": "e64",
+      "start": {
+        "x": 13386.506858877907,
+        "y": 7035
+      },
+      "end": {
+        "x": 13389.216609789162,
+        "y": 12291
+      },
+      "mark": "B1",
+      "label": "B1-5",
+      "width": 230,
+      "depth": 458,
+      "length": 5256,
+      "elevation": 0,
+      "steel": {
+        "bottomFull": {
+          "count": 5,
+          "dia": 25
+        },
+        "bottomCurtail": {
+          "count": 2,
+          "dia": 25
+        },
+        "topSteel": {
+          "count": 4,
+          "dia": 25
+        },
+        "extraTopSupport": {
+          "count": 0,
+          "dia": 16
+        },
+        "stirrups": {
+          "dia": 10,
+          "supportSpacing": 125,
+          "supportNos": 10,
+          "midSpacing": 125
+        },
+        "cover": 25,
+        "startSupport": {
+          "type": "wall",
+          "embedmentDepth": 280,
+          "lBend": false,
+          "lBendLength": 450,
+          "colWidth": 230,
+          "straightBar": false
+        },
+        "endSupport": {
+          "type": "wall",
+          "embedmentDepth": 635,
+          "lBend": false,
+          "lBendLength": 450,
+          "colWidth": 230,
+          "straightBar": false
+        }
+      }
+    },
+    {
+      "id": "e67",
+      "start": {
+        "x": 8597,
+        "y": 12809
+      },
+      "end": {
+        "x": 8607.345048253046,
+        "y": 16010
+      },
+      "mark": "B1",
+      "label": "B1-6",
+      "width": 230,
+      "depth": 458,
+      "length": 3201,
+      "elevation": 0,
+      "steel": {
+        "bottomFull": {
+          "count": 4,
+          "dia": 20
+        },
+        "bottomCurtail": {
+          "count": 2,
+          "dia": 16
+        },
+        "topSteel": {
+          "count": 3,
+          "dia": 20
+        },
+        "extraTopSupport": {
+          "count": 0,
+          "dia": 16
+        },
+        "stirrups": {
+          "dia": 10,
+          "supportSpacing": 125,
+          "supportNos": 10,
+          "midSpacing": 125
+        },
+        "cover": 25,
+        "startSupport": {
+          "type": "column",
+          "embedmentDepth": 230,
+          "lBend": true,
+          "lBendLength": 450,
+          "colWidth": 355,
+          "straightBar": false
+        },
+        "endSupport": {
+          "type": "wall",
+          "embedmentDepth": 600,
+          "lBend": false,
+          "lBendLength": 450,
+          "colWidth": 230,
+          "straightBar": false
+        }
+      }
+    },
+    {
+      "id": "e69",
+      "start": {
+        "x": 6614.997858667906,
+        "y": 12500.701784722201
+      },
+      "end": {
+        "x": 8480,
+        "y": 12500
+      },
+      "mark": "B1",
+      "label": "B1-7",
+      "width": 230,
+      "depth": 458,
+      "length": 1865,
+      "elevation": 0,
+      "steel": {
+        "bottomFull": {
+          "count": 4,
+          "dia": 25
+        },
+        "bottomCurtail": {
+          "count": 2,
+          "dia": 25
+        },
+        "topSteel": {
+          "count": 3,
+          "dia": 25
+        },
+        "extraTopSupport": {
+          "count": 0,
+          "dia": 16
+        },
+        "stirrups": {
+          "dia": 10,
+          "supportSpacing": 125,
+          "supportNos": 10,
+          "midSpacing": 125
+        },
+        "cover": 25,
+        "startSupport": {
+          "type": "wall",
+          "embedmentDepth": 600,
+          "lBend": false,
+          "lBendLength": 450,
+          "colWidth": 230,
+          "straightBar": false
+        },
+        "endSupport": {
+          "type": "column",
+          "embedmentDepth": 230,
+          "lBend": true,
+          "lBendLength": 450,
+          "colWidth": 230,
+          "straightBar": true,
+          "barExtension": 460
+        }
+      }
+    },
+    {
+      "id": "e70",
+      "start": {
+        "x": 8419.5,
+        "y": 6920
+      },
+      "end": {
+        "x": 5115,
+        "y": 6916.935218929918
+      },
+      "mark": "B1",
+      "label": "B1-8",
+      "width": 230,
+      "depth": 458,
+      "length": 3305,
+      "elevation": 0,
+      "steel": {
+        "bottomFull": {
+          "count": 5,
+          "dia": 25
+        },
+        "bottomCurtail": {
+          "count": 2,
+          "dia": 25
+        },
+        "topSteel": {
+          "count": 4,
+          "dia": 25
+        },
+        "extraTopSupport": {
+          "count": 0,
+          "dia": 16
+        },
+        "stirrups": {
+          "dia": 10,
+          "supportSpacing": 125,
+          "supportNos": 10,
+          "midSpacing": 125
+        },
+        "cover": 25,
+        "startSupport": {
+          "type": "wall",
+          "embedmentDepth": 250,
+          "lBend": true,
+          "lBendLength": 150,
+          "colWidth": 230,
+          "straightBar": false,
+          "lBendCount": 3
+        },
+        "endSupport": {
+          "type": "column",
+          "embedmentDepth": 230,
+          "lBend": true,
+          "lBendLength": 450,
+          "colWidth": 355,
+          "straightBar": true,
+          "barExtension": 1000
+        }
+      }
+    },
+    {
+      "id": "e71",
+      "start": {
+        "x": 8710,
+        "y": 12500
+      },
+      "end": {
+        "x": 13237,
+        "y": 12498.322909996246
+      },
+      "mark": "B1",
+      "label": "B1-9",
+      "width": 230,
+      "depth": 458,
+      "length": 4527,
+      "elevation": 0,
+      "steel": {
+        "bottomFull": {
+          "count": 5,
+          "dia": 25
+        },
+        "bottomCurtail": {
+          "count": 2,
+          "dia": 25
+        },
+        "topSteel": {
+          "count": 4,
+          "dia": 25
+        },
+        "extraTopSupport": {
+          "count": 0,
+          "dia": 16
+        },
+        "stirrups": {
+          "dia": 10,
+          "supportSpacing": 125,
+          "supportNos": 10,
+          "midSpacing": 125
+        },
+        "cover": 25,
+        "startSupport": {
+          "type": "column",
+          "embedmentDepth": 230,
+          "lBend": true,
+          "lBendLength": 450,
+          "colWidth": 230,
+          "straightBar": true,
+          "barExtension": 600
+        },
+        "endSupport": {
+          "type": "wall",
+          "embedmentDepth": 270,
+          "lBend": false,
+          "lBendLength": 150,
+          "colWidth": 230,
+          "straightBar": false,
+          "lBendCount": 3
+        }
+      }
+    }
+  ],
+  "slabs": [
+    {
+      "id": "e72",
+      "points": [
+        {
+          "x": 5000,
+          "y": 2500
+        },
+        {
+          "x": 5000,
+          "y": 6900
+        },
+        {
+          "x": 8597,
+          "y": 6920
+        },
+        {
+          "x": 8600,
+          "y": 2500
+        }
+      ],
+      "mark": "S3",
+      "shortSpan": 3600,
+      "longSpan": 4420,
+      "elevation": 0,
+      "steel": {
+        "depth": 280,
+        "mainBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "distBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "topSteel": {
+          "dia": 8,
+          "spacing": 200,
+          "enabled": false
+        },
+        "altBentUp": true,
+        "sunkDepth": 0,
+        "cover": 15
+      }
+    },
+    {
+      "id": "e73",
+      "points": [
+        {
+          "x": 8620,
+          "y": 2520
+        },
+        {
+          "x": 8597,
+          "y": 6920
+        },
+        {
+          "x": 13382,
+          "y": 6920
+        },
+        {
+          "x": 13382,
+          "y": 2500
+        }
+      ],
+      "mark": "S3",
+      "shortSpan": 4420,
+      "longSpan": 4785,
+      "elevation": 0,
+      "steel": {
+        "depth": 280,
+        "mainBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "distBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "topSteel": {
+          "dia": 8,
+          "spacing": 200,
+          "enabled": false
+        },
+        "altBentUp": true,
+        "sunkDepth": 0,
+        "cover": 15
+      }
+    },
+    {
+      "id": "e74",
+      "points": [
+        {
+          "x": 5050,
+          "y": 6975
+        },
+        {
+          "x": 5000,
+          "y": 12500
+        },
+        {
+          "x": 8600,
+          "y": 12480
+        },
+        {
+          "x": 8597,
+          "y": 6920
+        }
+      ],
+      "mark": "S3",
+      "shortSpan": 3600,
+      "longSpan": 5580,
+      "elevation": 0,
+      "steel": {
+        "depth": 280,
+        "mainBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "distBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "topSteel": {
+          "dia": 8,
+          "spacing": 200,
+          "enabled": false
+        },
+        "altBentUp": true,
+        "sunkDepth": 0,
+        "cover": 15
+      }
+    },
+    {
+      "id": "e75",
+      "points": [
+        {
+          "x": 8597,
+          "y": 6920
+        },
+        {
+          "x": 8597,
+          "y": 12580
+        },
+        {
+          "x": 13382,
+          "y": 12406
+        },
+        {
+          "x": 13382,
+          "y": 6920
+        }
+      ],
+      "mark": "S3",
+      "shortSpan": 4785,
+      "longSpan": 5660,
+      "elevation": 0,
+      "steel": {
+        "depth": 280,
+        "mainBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "distBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "topSteel": {
+          "dia": 8,
+          "spacing": 200,
+          "enabled": false
+        },
+        "altBentUp": true,
+        "sunkDepth": 0,
+        "cover": 15
+      }
+    },
+    {
+      "id": "e76",
+      "points": [
+        {
+          "x": 13382,
+          "y": 6920
+        },
+        {
+          "x": 17802,
+          "y": 6920
+        },
+        {
+          "x": 17802,
+          "y": 12406
+        },
+        {
+          "x": 13352,
+          "y": 12406
+        }
+      ],
+      "mark": "S3",
+      "shortSpan": 4450,
+      "longSpan": 5486,
+      "elevation": 0,
+      "steel": {
+        "depth": 280,
+        "mainBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "distBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "topSteel": {
+          "dia": 8,
+          "spacing": 200,
+          "enabled": false
+        },
+        "altBentUp": true,
+        "sunkDepth": 0,
+        "cover": 15
+      }
+    },
+    {
+      "id": "e77",
+      "points": [
+        {
+          "x": 6500,
+          "y": 12500
+        },
+        {
+          "x": 8600,
+          "y": 12500
+        },
+        {
+          "x": 8600,
+          "y": 15200
+        },
+        {
+          "x": 6400,
+          "y": 15200
+        }
+      ],
+      "mark": "S3",
+      "shortSpan": 2200,
+      "longSpan": 2700,
+      "elevation": 0,
+      "steel": {
+        "depth": 280,
+        "mainBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "distBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "topSteel": {
+          "dia": 8,
+          "spacing": 200,
+          "enabled": false
+        },
+        "altBentUp": true,
+        "sunkDepth": 0,
+        "cover": 15
+      }
+    },
+    {
+      "id": "e79",
+      "points": [
+        {
+          "x": 8597,
+          "y": 12580
+        },
+        {
+          "x": 13237,
+          "y": 12498.322909996246
+        },
+        {
+          "x": 13352,
+          "y": 16125
+        },
+        {
+          "x": 8597,
+          "y": 16125
+        }
+      ],
+      "mark": "S3",
+      "shortSpan": 3627,
+      "longSpan": 4755,
+      "elevation": 0,
+      "steel": {
+        "depth": 280,
+        "mainBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "distBar": {
+          "dia": 12,
+          "spacing": 150
+        },
+        "topSteel": {
+          "dia": 8,
+          "spacing": 200,
+          "enabled": false
+        },
+        "altBentUp": true,
+        "sunkDepth": 0,
+        "cover": 15
+      }
+    }
+  ]
+}
